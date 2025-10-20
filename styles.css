@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+    position: relative;
+}
+
+
+.container-logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: #222;
+    margin: 0;
+}
+
+
+.autor {
+    font-size: 14px;
+    color: #555;
+}
+
+
+#container-personajes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+
+#container-personajes img {
+    width: 100%;
+    border-radius: 0;
+}
+
+
+
+.dark-mode{
+    background-color: black;
+    color:#fff;
+}
